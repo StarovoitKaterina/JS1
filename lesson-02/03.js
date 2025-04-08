@@ -9,13 +9,14 @@ let grade
 // your code
 
 if (score >= 90){
-    grade =  alert("A")
+    grade = "A"
 } else if ( score >= 80){
-    grade =  alert("B")
+    grade = "B"
 } else if ( score >= 70){
-    grade =  alert("C")
+    grade = "C"
 } else if ( score >= 50){
-    grade =  alert("D")
+    grade = "D"
 } else {
-    grade =  alert("F")
+    grade = "F"
 }
+console.log(grade)
