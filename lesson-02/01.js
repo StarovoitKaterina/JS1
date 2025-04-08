@@ -10,14 +10,14 @@
 // тестовые данные (значения можно менять)
 const isAdmin = false
 const isVerifiedUser = true
-const hasSpecialPermission = true
-const hasTemporaryPass = false
+const hasSpecialPermission = false
+const hasTemporaryPass = true
 
 let isAccess
 
 // your code
 
-let conditional = (!isAdmin || isVerifiedUser) && (hasSpecialPermission || !hasTemporaryPass)
+let conditional = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 isAccess = conditional ? "True" : "False"
 console.log(isAccess)
 
