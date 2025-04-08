@@ -17,7 +17,7 @@ let isAccess
 
 // your code
 
-let conditional = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
+const conditional = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 isAccess = conditional ? "true" : "false"
 console.log(isAccess)
 
