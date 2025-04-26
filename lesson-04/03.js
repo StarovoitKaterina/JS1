@@ -28,7 +28,7 @@ function includesElement(array,element) {
 
 function findCommonElements(arr,arr2) {
     let newSum = []
-    for(let i = 0; i < arr.length; i++) {
+    for(let i = 0; i < arr2.length; i++) {
         if(includesElement(arr,arr2[i])) {
             newSum.push(arr2[i]);
         }
@@ -36,7 +36,7 @@ function findCommonElements(arr,arr2) {
     return newSum;
 }
 
-console.log(findCommonElements([1, 2, 3, ], [2,3, ]))
+console.log(findCommonElements([ ], [ ]))
 
 
 
