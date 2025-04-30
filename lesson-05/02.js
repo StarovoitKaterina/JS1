@@ -35,4 +35,12 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+function updateGallery(object, name, newName) {
+  if( !object.hasOwnProperty [name]){
+    object[name] = newName
+  }
+}
+
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali')
+console.log(gallery)
+
