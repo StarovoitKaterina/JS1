@@ -32,9 +32,6 @@ console.log(capitalizeWords('name new'))
 
 
 
-
-
-
 /*
 let name = 'kate new'
 let nwName = name.split(' ')
