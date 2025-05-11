@@ -9,12 +9,8 @@ function isNumeric(str) {
     if (str.trim() === '') {
         return false
     }
-    if (isNumber) {
-        return true
-    }
-    return false
+     return isNumber
 
 }
-
 console.log(isNumeric(" "))
 
